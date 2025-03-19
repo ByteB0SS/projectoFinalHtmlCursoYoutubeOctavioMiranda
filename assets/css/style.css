@@ -283,10 +283,23 @@ tfoot td, thead{
 div.table{
     width: 100%;
 
-    overflow: hidden;
-    overflow: auto;
+    overflow: scroll;
 }
+/*  */
 
+div.table::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+  }
+  
+  div.table::-webkit-scrollbar-thumb {
+    background-color: #595555; /* Cor da barra */
+    border-radius: 2rem;
+  }
+  
+  div.table::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Fundo da barra */
+  }
+  
 .contactTextImg{
     display: grid;
     grid-template-columns: 1.5fr 0.5fr;
