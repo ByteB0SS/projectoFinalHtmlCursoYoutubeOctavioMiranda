@@ -361,8 +361,8 @@ textarea{
 
 input[type="submit"]{
     margin-top: 1rem;
-    border: 0.5rem solid white;
-    background-color: rgb(17, 17, 54);
+    border: 0.15rem solid white;
+    background-color: var(--primaryColor);
     color: white;
 }
 
@@ -413,7 +413,7 @@ section#form{
     font-size: 2rem;
     color: white;
     background-color: var(--primaryColor);
-    border: solid 0.16rem white;
+    border: solid 0.1rem white;
 }
 
 .btnTop{
