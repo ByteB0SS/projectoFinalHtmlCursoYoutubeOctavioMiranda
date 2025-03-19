@@ -413,6 +413,7 @@ section#form{
     font-size: 2rem;
     color: white;
     background-color: var(--primaryColor);
+    border: solid 0.16rem white;
 }
 
 .btnTop{
